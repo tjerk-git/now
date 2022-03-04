@@ -29,6 +29,20 @@ a:hover{
 	filter: drop-shadow(1px 1px 5px #020243);
 }
 
+.black_bar{
+	background:black;
+	color:white;
+	text-align: left;
+	width:100vw;
+	height:50px;
+	padding:10px;
+}
+
+.black_bar a{
+	color:white;
+	font-size:1.5rem;
+}
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
