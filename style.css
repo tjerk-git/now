@@ -10,6 +10,22 @@ html, body {
     overflow-x: hidden;
 }
 
+ul, ol {
+  margin: 1rem 0;
+  padding-left: 2rem;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li{
+  display: list-item;
+}
+
 .content_div a{
 	color:blue;
 }
