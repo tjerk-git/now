@@ -1,3 +1,93 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size:16px;
+  line-height:1.6;
+}
+
+h1 { font-size: 2.4rem;}
+h2 { font-size: 2rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.2rem; }
+h5 { font-size: 1rem; }
+
+a{
+  text-decoration: none;
+  color:rgb(76, 109, 255);
+}
+
+.amount{
+  color:rgb(51, 51, 51);
+}
+
+tr{
+  border-bottom:1px solid rgb(220, 220, 220);
+}
+
+tbody{
+  width:100%;
+}
+
+table{
+  width:100%;
+}
+
+td {
+  padding-top:12px;
+  padding-bottom:12px;
+  padding-right:12px;   
+}
+
+td:first-child {
+  padding-left:20px;
+  padding-right:0;
+}
+
+
+
 .special {
 	background: linear-gradient(-45deg, #fff0eb, rgb(255, 255, 255), #95e3ff, #4c00ff);
 	background-size: 700% 300%;
@@ -43,22 +133,14 @@ li{
 	color:blue;
 }
 
-a:visited{
-	color: #020243;
-}
-
-a:hover{
-	color:blue;
-}
 
 .strava{
   color:#fc4c02!important;
 }
 
-.special a:hover{
-	color:white;
-	text-decoration: underline;
-	transition: 0.2s all;
+a:hover{
+  text-decoration: underline;
+  color:black;
 }
 
 .black_bar{
@@ -98,6 +180,27 @@ aside{
 	}
 }
 
+.container{
+  width:100vw;
+  display:flex;
+  justify-content: center;
+}
+
+th{
+  text-align:left;
+  font-weight:bold;
+  font-size:19px;
+}
+
+.medium_table{
+  width:700px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+section{
+  padding:20px;
+}
 
 a[href^="mailto:"],
 a[href^="tel:"],
