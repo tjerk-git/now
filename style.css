@@ -138,6 +138,14 @@ li{
   color:#fc4c02!important;
 }
 
+.intro{
+  width:700px;
+  line-height:1.7rem;
+  border-bottom:1px solid rgb(213, 213, 213);
+  margin-bottom:10px;
+  padding:20px;
+}
+
 a:hover{
   text-decoration: underline;
   color:black;
