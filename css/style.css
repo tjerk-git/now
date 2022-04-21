@@ -345,6 +345,7 @@ input[type="number"] {
       align-items: center;
       display: flex;
       flex-direction: column;
+      margin-top:40px;
     }
     
     .menu ol li {
@@ -364,8 +365,8 @@ input[type="number"] {
     }
     
     .menu_button{
-      background:black;
-      color:rgb(255, 255, 255);
+      background:none;
+      color:rgb(0, 0, 0);
       font-size:22px;
       font-weight:bold;
       padding:20px;
