@@ -10,14 +10,28 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="black_bar">
-        <a href="https://tjerk.art">TAKE ME TO YOUR HOME PAGE //////////////////////////</a>
+  <header>
+    <button onclick="ToggleMenu();" data-state="closed" id="menu_button" class="menu_button">Menu | </button>
+    <div id="menu_container" data-state="closed" class="menu_container">
+      <nav class="menu">
+        <ol>
+          <li class="crumb"> <a href="index.html">HOME</a></li>
+          <li class="crumb"> <a href="https://unsplash.com/@chairk">PHOTOGRAPHS</a></li>
+          <li class="crumb"><a class="current" href="now.html">WHAT DO I DO NOW?</a></li>
+          <li class="crumb"><a href="https://github.com/tjerk-git">GITHUB</a></li>
+          <li class="crumb"><a href="assignments/index.html">TEACHING STUFF</a></li>
+        </ol>
+      </nav>
     </div>
+  </header>
+  
     <div class="container">
+      
+
       <section>
         <div >TJERK DIJKSTRA</div>
         <div><h1>/////////NOW\\\\\\\\\\</h1></div>
@@ -60,13 +74,13 @@
               <strong>Raw Data Feel - Everything Everything</strong>  // 21-04-2022 \\\\\\ <div>
               
               <strong>Yeezus - Kanye west</strong> (first listen) // 04-03-2022 \\\\\\ <div>
-              
-              
         </p>
         
       </section>
         <div aria-hidden="true" class="text-9xl">-------------------------</div>
     </div>
+    
+    <script src="js/website.js"></script>
 </body>
 
 </html>

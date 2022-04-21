@@ -144,15 +144,10 @@ a:hover{
   color:black;
 }
 
-.black_bar{
-	background:black;
-	color:white;
-	text-align: left;
-	width:100vw;
-	padding:20px;
-  box-sizing: border-box;
+a.current{
   text-decoration: underline;
 }
+
 
 aside{
   background:rgb(208, 208, 208);
@@ -322,4 +317,63 @@ input[type="number"] {
       .medium_table{
         width:100%;
       }
+    }
+    
+    .menu_container{
+      width:100vw;
+      height:100vh;
+      background:black;
+      margin:0;
+      position:absolute;
+      z-index:0;
+      top:-9999px;
+      transition: top 800ms cubic-bezier(0.4, 0, 0.2, 1)
+    }
+    
+    .menu_container.open{
+      top:0px;
+      transition: top 800ms cubic-bezier(0.4, 0, 0.2, 1)
+    }
+    
+    .menu {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .menu ol li {
+      color:white;
+      font-size:38px;
+      font-weight:bold;
+      list-style-type: disc;
+    }
+    
+    .menu ol li a{
+      color:white;
+    }
+    
+    .menu ol li a:hover{
+      color:white;
+      text-decoration:underline;
+    }
+    
+    .menu_button{
+      background:black;
+      color:rgb(255, 255, 255);
+      font-size:22px;
+      font-weight:bold;
+      padding:20px;
+      width:200px;
+      position:absolute;
+      top:0;
+      right:0;
+      border:none;
+      cursor:pointer;
+      z-index:1;
+      transition: background-color 400ms;
+    }
+    
+    .menu_button.open{
+      background:white;
+      color:black;
     }

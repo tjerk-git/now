@@ -11,16 +11,26 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <meta property="og:title" content="Bye Strava, a blog item by Tjerk Dijkstra" />
   <meta property="og:image" content="/img/strava_1.png" />
 </head>
 
 <body>
-	<div class="black_bar">
-		<a href="https://tjerk.art/now.html"><< the "now" page, it's really fun //////\\\\\\\//////\\\\\\\//////\\\\\\\//////\\\\\\\//////\\\\\\\</a>
+	<header>
+	<button onclick="ToggleMenu();" data-state="closed" id="menu_button" class="menu_button">Menu | </button>
+	<div id="menu_container" data-state="closed" class="menu_container">
+	  <nav class="menu">
+		<ol>
+		  <li class="crumb"> <a href="index.html">HOME</a></li>
+		  <li class="crumb"> <a href="https://unsplash.com/@chairk">PHOTOGRAPHS</a></li>
+		  <li class="crumb"><a class="current"href="now.html">WHAT DO I DO NOW?</a></li>
+		  <li class="crumb"><a href="https://github.com/tjerk-git">GITHUB</a></li>
+	  	<li class="crumb"><a href="https://github.com/tjerk-git">TEACHING STUFF</a></li>
+		</ol>
+	  </nav>
 	</div>
-	
+  </header>
 
 	<div class="grid gap-2 md:grid-cols-3 sm:grid-cols-1 p-5">
 		<div></div>
@@ -68,6 +78,8 @@
 	
 		<div aria-hidden="true" class="text-9xl">-------------------------</div>
 	</div>
+	
+	<script src="js/website.js"></script>
 </body>
 
 </html>

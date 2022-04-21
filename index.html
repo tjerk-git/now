@@ -12,34 +12,40 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   
   <link rel="manifest" href="site.webmanifest">
+  
 </head>
 
 <body class="special">
-    <div class="container">
+  <header>
+    <button onclick="ToggleMenu();" data-state="closed" id="menu_button" class="menu_button">Menu | </button>
+    <div id="menu_container" data-state="closed" class="menu_container">
+      <nav class="menu">
+        <ol>
+          <li class="crumb"> <a class="current" href="index.html">HOME</a></li>
+          <li class="crumb"> <a href="https://unsplash.com/@chairk">PHOTOGRAPHS</a></li>
+          <li class="crumb"><a href="now.html">WHAT DO I DO NOW?</a></li>
+          <li class="crumb"><a href="https://github.com/tjerk-git">GITHUB</a></li>
+          <li class="crumb"><a href="assignments/index.html">TEACHING STUFF</a></li>
+        </ol>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
       <section>
         <h1>TJERK DIJKSTRA <br>IS A DESIGNER,<br>PROGRAMMER<br>AND LECTURER</h1>
-        <nav>
-          <ul>
-            <li>
-              <a href="https://unsplash.com/@chairk">PHOTOGRAPHS</a>
-            </li>
-            <li><a href="https://github.com/tjerk-git">GITHUB</a></li>
-            <li>
-              <a href="now.html">NOW</a>
-            </li>
-          </ul>
-        </nav>
-        <div aria-hidden="true" >////////////////////</div>
-        <div ><a href="now.html">WHAT DO I DO NOW?</a>\\\\\\\\\\</div>
-        <div aria-hidden="true" >////////////////////</div>
-        <div >DESIGNING////////////////////////////</div>
-        <div >FOR (MOSTLY) HUMANS/////////////////////</div>
-        <div aria-hidden="true" class="text-9xl">-----------------------</div>
+        <h1 aria-hidden="true" >////////////////////</h1>
+        <h1 >\\\\\\\\\\</h1>
+        <h1 aria-hidden="true" >////////////////////</h1>
+        <h1 >DESIGNING////////////////////////////</h1>
+        <h1 >FOR (MOSTLY) HUMANS/////////////////////</h1>
+        <h1 aria-hidden="true">-----------------------</h1>
       </section>
     </div>
+    
+    <script src="js/website.js"></script>
 </body>
 
 </html>
