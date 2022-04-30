@@ -3,49 +3,41 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Tjerk Dijkstra's place on the internet</title>
-  <meta name="description" content="please don't">
+  <title>Home</title>
+  <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="Tjerk's place on the internet, very much decentralised">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com"> 
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <meta property="og:title" content="Home">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  
-  <link rel="manifest" href="site.webmanifest">
-  
+  <link rel="stylesheet" href="/css/site.css">
 </head>
-
-<body class="special">
-  <header>
-    <button onclick="ToggleMenu();" data-state="closed" id="menu_button" class="menu_button">Menu </button>
-    <div id="menu_container" data-state="closed" class="menu_container">
-      <nav class="menu">
-        <ol>
-          <li class="crumb"> <a class="current" href="index.html">HOME</a></li>
-          <li class="crumb"> <a href="https://unsplash.com/@chairk">PHOTOGRAPHS</a></li>
-          <li class="crumb"><a href="now.html">WHAT DO I DO NOW?</a></li>
-          <li class="crumb"><a href="https://github.com/tjerk-git">GITHUB</a></li>
-          <li class="crumb"><a href="assignments/index.html">TEACHING STUFF</a></li>
-        </ol>
-      </nav>
-    </div>
+  <body  class="special" >
+   <header>
+	<button onclick="ToggleMenu();" data-state="closed" id="menu_button" class="menu_button">Menu </button>
+	<div id="menu_container" data-state="closed" class="menu_container">
+	  <nav class="menu">
+		<ol>
+		  <li class="crumb"> <a class="current" href="/">HOME</a></li>
+		  <li class="crumb"><a href="/now.html">WHAT DO I DO NOW?</a></li>
+		  <li class="crumb"><a href="assignments.html">TEACHING STUFF</a></li>
+		  <li class="crumb"><a target="_blank" href="https://github.com/tjerk-git">GITHUB ></a></li>
+		  <li class="crumb"> <a target="_blank" href="https://unsplash.com/@chairk">PHOTOGRAPHS ></a></li>
+		</ol>
+	  </nav>
+	</div>
   </header>
-  <div class="container">
-      <section class="full_width">
-        <h1>TJERK DIJKSTRA <br>IS A DESIGNER,<br>PROGRAMMER<br>AND LECTURER</h1>
-        <h1 aria-hidden="true" >////////////////////</h1>
-        <h1 >\\\\\\\\\\</h1>
-        <h1 aria-hidden="true" >////////////////////</h1>
-        <h1 >DESIGNING////////////////////////////</h1>
-        <h1 >FOR (MOSTLY) HUMANS/////////////////////</h1>
-        <h1 aria-hidden="true">-----------------------</h1>
-      </section>
-    </div>
-    
-    <script src="js/website.js"></script>
-</body>
+	<div class="container flex">
+  <section class="post">
+	  <h1 class="big">TJERK DIJKSTRA <br>IS A DESIGNER,<br>PROGRAMMER<br>AND LECTURER</h1>
+	  <h1 class="big"aria-hidden="true" >////////////////////</h1>
+	  <h1 class="big">\\\\\\\\\\</h1>
+	  <h1 class="big" aria-hidden="true" >////////////////////</h1>
+	  <h1 class="big" aria-hidden="true">-----------------------</h1>
+  </section>
+</div>
 
+  <script src="/js/website.js"></script>
+  </body>
 </html>

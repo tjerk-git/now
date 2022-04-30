@@ -1,0 +1,279 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size:16px;
+  line-height:1.6;
+}
+
+h1 { font-size: 2.6rem;}
+h1.big { font-size: 5.6rem;}
+h2 { font-size: 2rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.2rem; }
+h5 { font-size: 1rem; }
+
+a{
+  text-decoration: none;
+  color:rgb(76, 109, 255);
+}
+
+.amount{
+  color:rgb(51, 51, 51);
+}
+
+tr{
+  border-bottom:1px solid rgb(220, 220, 220);
+}
+
+tbody{
+  width:100%;
+}
+
+table{
+  width:100%;
+}
+
+td {
+  padding-top:12px;
+  padding-bottom:12px;
+  padding-right:12px;
+}
+
+td:first-child {
+  padding-left:20px;
+  padding-right:0;
+}
+
+
+
+.special {
+	background: linear-gradient(-45deg, #fff0eb, rgb(255, 255, 255), #95e3ff, #4c00ff);
+	background-size: 700% 300%;
+	animation: gradient 20s ease infinite;
+	height: 100vh;
+}
+
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+	font-family: 'Inter', sans-serif;
+}
+
+.navigation{
+  border:4px solid #000;
+}
+
+ul, ol {
+  margin: 1rem 0;
+  padding-left: 2rem;
+  display: block;
+  list-style-type: upper-roman !important;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li{
+  display: list-item;
+}
+
+.intro{
+  width:700px;
+  line-height:1.7rem;
+  border-bottom:1px solid rgb(213, 213, 213);
+  margin-bottom:10px;
+  padding:20px;
+  box-sizing:border-box;
+}
+
+a:hover{
+  text-decoration: underline;
+  color:black;
+}
+
+a.current{
+  text-decoration: underline;
+}
+
+
+aside{
+  background:rgb(208, 208, 208);
+  padding:20px;
+  background-color: #fff;
+  border-radius: .25rem;
+  box-shadow: 0 .5em 1em -.125em rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.02);
+  color: #4a4a4a;
+  max-width: 100%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.container{
+  width:100vw;
+  display:flex;
+  justify-content: center;
+}
+
+th{
+  text-align:left;
+  font-weight:bold;
+  font-size:19px;
+}
+
+.medium_table{
+  width:700px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+section{
+  padding: 20px;
+  margin-top: 70px;
+  box-sizing: border-box;
+}
+
+.full_width{
+  width:100%;
+}
+
+.flex{
+	display:flex;
+	justify-content: center;
+}
+
+.post{
+	width:800px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .intro {
+   width:100%;
+  }
+
+  .medium_table{
+	width:100%;
+  }
+
+  .post{
+	 width:100%;
+  }
+
+  h1.big{
+    font-size: 2.6rem;
+  }
+}
+
+.menu_container{
+  width:100vw;
+  height:100vh;
+  background:black;
+  margin:0;
+  position:absolute;
+  z-index:0;
+  top:-1000px;
+  transition: top 230ms cubic-bezier(0.5, 0, 0.2, 1)
+}
+
+.menu_container.open{
+  top:0px;
+}
+
+.menu {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top:100px;
+}
+
+.menu ol li {
+  color:white;
+  font-size:38px;
+  font-weight:bold;
+  list-style-type: disc;
+}
+
+.menu ol li a{
+  color:white;
+}
+
+.menu ol li a:hover{
+  color:white;
+  text-decoration:underline;
+}
+
+.menu_button{
+  background:none;
+  color:rgb(0, 0, 0);
+  font-size:22px;
+  font-weight:bold;
+  padding:20px;
+  width:110px;
+  position:absolute;
+  top:0;
+  right:0;
+  border:none;
+  cursor:pointer;
+  z-index:1;
+  transition: background-color 400ms;
+}
+
+.menu_button.open{
+  background:white;
+  color:black;
+}

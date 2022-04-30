@@ -15,10 +15,10 @@ function ToggleMenu() {
 
   }
   else{
-	// close it
-	menu.dataset.state = 'closed';
-	menu.classList.remove("open");
-	menu_button.dataset.state = 'closed';
-	menu_button.classList.remove("open");
+	  // close it
+	  menu.dataset.state = 'closed';
+	  menu.classList.remove("open");
+	  menu_button.dataset.state = 'closed';
+	  menu_button.classList.remove("open");
   } 
 }
