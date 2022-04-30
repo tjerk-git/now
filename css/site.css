@@ -88,7 +88,6 @@ td:first-child {
 }
 
 
-
 .special {
 	background: linear-gradient(-45deg, #fff0eb, rgb(255, 255, 255), #95e3ff, #4c00ff);
 	background-size: 700% 300%;
@@ -255,6 +254,15 @@ section{
 .menu ol li a:hover{
   color:white;
   text-decoration:underline;
+}
+
+.post li{
+  list-style: list-item;
+  margin-bottom:15px;
+}
+
+.author{
+  text-align:right;
 }
 
 .menu_button{

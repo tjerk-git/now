@@ -1,5 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://tjerk.art/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tjerk.art/" rel="alternate" type="text/html" /><updated>2022-04-30T18:54:35+02:00</updated><id>https://tjerk.art/feed.xml</id><title type="html">Tjerk Dijkstra, designs for humans</title><subtitle>Tjerk Dijkstra is a programmer, designer and lecturer based in the north of the Netherlands. He likes to make durable and accessible applications and websites.</subtitle><entry><title type="html">What’s my name</title><link href="https://tjerk.art/assignments/2022/04/29/assignment_1.html" rel="alternate" type="text/html" title="What’s my name" /><published>2022-04-29T00:00:00+02:00</published><updated>2022-04-29T00:00:00+02:00</updated><id>https://tjerk.art/assignments/2022/04/29/assignment_1</id><content type="html" xml:base="https://tjerk.art/assignments/2022/04/29/assignment_1.html"><![CDATA[<h1 id="the-next-web--javascript-challenge-1--difficulty-510">The Next Web \ Javascript challenge #1 \ Difficulty: (5/10)</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://tjerk.art/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tjerk.art/" rel="alternate" type="text/html" /><updated>2022-04-30T23:05:21+02:00</updated><id>https://tjerk.art/feed.xml</id><title type="html">Tjerk Dijkstra, designs for humans</title><subtitle>Tjerk Dijkstra is a programmer, designer and lecturer based in the north of the Netherlands. He likes to make durable and accessible applications and websites.</subtitle><entry><title type="html">Obsidian is beter dan Notion</title><link href="https://tjerk.art/blog/2022/04/30/obsidian-better-notion.html" rel="alternate" type="text/html" title="Obsidian is beter dan Notion" /><published>2022-04-30T00:00:00+02:00</published><updated>2022-04-30T00:00:00+02:00</updated><id>https://tjerk.art/blog/2022/04/30/obsidian-better-notion</id><content type="html" xml:base="https://tjerk.art/blog/2022/04/30/obsidian-better-notion.html"><![CDATA[<hr />
+<p>Notion, het beloofde land van overzichtelijk notities beheren, templates en mooi vormgegeven pagina’s.</p>
 
+<p>Maar het heeft altijd al een paar kanttekeningen gehad.
+Betaalde accounts, Login muren, Slechte PDF export, Amerikaanse servers die je data beheren. Het wordt tijd om rond te kijken mensen, zie hier Obsidian.</p>
+
+<ol>
+  <li>
+    <p><strong>Obsidian verbindt notites echt aan elkaar.</strong>
+Je kent het wel, wanneer je met Notion werkt dan verwijs je de ene pagina door naar de andere. Echter met Obsidian is het meer dan een verwijzing, het is een koppeling.
+Vervolgens kan je ook echt zien, hoe dingen aan elkaar relateren.</p>
+  </li>
+  <li>
+    <p><strong>Het is jouw tweede brein</strong>
+Wanneer je aan Obsidian begint maak je ook een soort extensie van al je kennis. Omdat je dingen aan elkaar relateert wordt het een extentie van je eigen brein! Ik heb mijn kennisbank of BOKS of whatever “Mind Palace genoemd” Je bent je eigen kennis dus aan het rubriceren.</p>
+  </li>
+  <li>
+    <p><strong>Het werkt volledig offline</strong>
+In tegenstelling tot Notion, geen accounts, geen login, geen cloudsync, niets is verplicht of nodig. Obsidian werkt met offline markdown bestanden, voor mensen die Markdown niet kennen, het is een soort ultra simpele HTML, voor mensen die HTML niet kennen. Het is een soort Rich Text Format, voor mensen die Richt Text Format niet kennen, het is tekst met opmaak, OK.</p>
+
+    <p>Het heeft net zoals Notion ook <strong>templates</strong> die je leven makkelijker maken.</p>
+  </li>
+  <li>
+    <p><strong>Al je data blijft altijd van jou</strong>
+Aangezien er geen servers gemoeid zijn met het opslaan van je werk, blijft alles altijd in eigen beheer. Markdown heeft als voordeel dat het makkelijk om te zetten is naar: PDF, HTML. Dus delen is ook vrij eenvoudig, mocht je willen dan kan ook HTML pagina’s eenvoudig online publiceren.</p>
+  </li>
+  <li>
+    <p><strong>Het is gratis</strong></p>
+  </li>
+  <li>
+    <p><strong>Plug-ins</strong>
+Er zijn al een hele bak aan toffe plugins waarmee je dit programma tot je eigen zinnen kan zetten, zoals integraties met grote TODO apps en zelfs voice memo’s!</p>
+  </li>
+  <li>
+    <p><strong>Links gaan twee kanten op oftewel, backlinking</strong>
+  Je kan per notitie zien welke notities hieraan gekoppeld zijn.</p>
+  </li>
+  <li>
+    <p><strong>Dit bericht is geschreven in Obsidian</strong>
+ Tja, het is lekker nerdy en heeft ook die insteek, het is schaamteloos nerdy en daar hou ik van.</p>
+  </li>
+</ol>
+
+<hr />]]></content><author><name>Tjerk</name></author><category term="blog" /><summary type="html"><![CDATA[Notion, het beloofde land van overzichtelijk notities beheren, templates en mooi vormgegeven pagina’s.]]></summary></entry><entry><title type="html">What’s my name</title><link href="https://tjerk.art/assignments/2022/04/29/assignment_1.html" rel="alternate" type="text/html" title="What’s my name" /><published>2022-04-29T00:00:00+02:00</published><updated>2022-04-29T00:00:00+02:00</updated><id>https://tjerk.art/assignments/2022/04/29/assignment_1</id><content type="html" xml:base="https://tjerk.art/assignments/2022/04/29/assignment_1.html"><![CDATA[<h1 id="the-next-web--javascript-challenge-1--difficulty-510">The Next Web \ Javascript challenge #1 \ Difficulty: (5/10)</h1>
+
+<hr />
 <p>Make the following:</p>
 
 <ol>
@@ -45,6 +89,7 @@
   <summary>Hint 4</summary>
 	Google how to make Fizz Buzz challenge.
 </details>]]></content><author><name>Tjerk</name></author><category term="assignments" /><summary type="html"><![CDATA[The Next Web \ Javascript challenge #1 \ Difficulty: (5/10)]]></summary></entry><entry><title type="html">Fun with filters</title><link href="https://tjerk.art/assignments/2022/04/29/assignment_2.html" rel="alternate" type="text/html" title="Fun with filters" /><published>2022-04-29T00:00:00+02:00</published><updated>2022-04-29T00:00:00+02:00</updated><id>https://tjerk.art/assignments/2022/04/29/assignment_2</id><content type="html" xml:base="https://tjerk.art/assignments/2022/04/29/assignment_2.html"><![CDATA[<h1 id="the-next-web--javascript-3--difficulty-810">The Next Web \ Javascript #3 \ Difficulty: (8/10)</h1>
+<hr />
 
 <ol>
   <li>Create 4 div’s with a title of your favourite: book, movie, game and song</li>
@@ -97,7 +142,8 @@
     // hide...
   }
 
-</details>]]></content><author><name>Tjerk</name></author><category term="assignments" /><summary type="html"><![CDATA[The Next Web \ Javascript #3 \ Difficulty: (8/10)]]></summary></entry><entry><title type="html">Bye Strava</title><link href="https://tjerk.art/blog/2022/04/02/bye-strava.html" rel="alternate" type="text/html" title="Bye Strava" /><published>2022-04-02T00:00:00+02:00</published><updated>2022-04-02T00:00:00+02:00</updated><id>https://tjerk.art/blog/2022/04/02/bye-strava</id><content type="html" xml:base="https://tjerk.art/blog/2022/04/02/bye-strava.html"><![CDATA[<h2 id="the-unrecorded-run">The Unrecorded Run</h2>
+</details>]]></content><author><name>Tjerk</name></author><category term="assignments" /><summary type="html"><![CDATA[The Next Web \ Javascript #3 \ Difficulty: (8/10)]]></summary></entry><entry><title type="html">Bye Strava</title><link href="https://tjerk.art/blog/2022/04/02/bye-strava.html" rel="alternate" type="text/html" title="Bye Strava" /><published>2022-04-02T00:00:00+02:00</published><updated>2022-04-02T00:00:00+02:00</updated><id>https://tjerk.art/blog/2022/04/02/bye-strava</id><content type="html" xml:base="https://tjerk.art/blog/2022/04/02/bye-strava.html"><![CDATA[<hr />
+<h2 id="the-unrecorded-run">The Unrecorded Run</h2>
 
 <p>It’s that time again, I mentally prepare for a run. For me personally, there is always some resistance to starting a run. A run after a while, becomes a ritual: preparation, running, and aftercare.</p>
 
