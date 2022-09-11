@@ -86,7 +86,7 @@ img {
 .window {
   background: white;
   color: black;
-  width: 25rem;
+  max-width: 25rem;
   margin: 0 auto;
   height: 20rem;
   padding: 1rem;
@@ -96,7 +96,7 @@ img {
 
 .pop-up {
   margin: 0 auto;
-  width: 26rem;
+  max-width: 26rem;
   height: 1rem;
 }
 
