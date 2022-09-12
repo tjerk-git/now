@@ -71,6 +71,7 @@ img {
   color: #211190;
   text-decoration: none;
   margin: 2.6rem;
+  cursor: pointer;
 }
 
 .btn--primary:hover {
