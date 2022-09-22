@@ -78,11 +78,6 @@ img {
   cursor: pointer;
 }
 
-.btn--primary:hover {
-  color: white;
-  transition: 0.5s all;
-  background-color: var(--clr-primary);
-}
 
 .right {
   float: right;
