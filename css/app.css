@@ -181,3 +181,11 @@ figcaption {
   opacity: 1;
   filter: blur(0px);
 }
+
+.btn--primary:hover {
+  transform: translateY(-3px);
+}
+
+.btn--primary:active {
+  transform: translateY(-1px);
+}
